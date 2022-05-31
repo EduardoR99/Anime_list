@@ -1,38 +1,72 @@
-.App {
+body{
+  margin: 0;
+  padding: 0;
+}
+.App{
   text-align: center;
+  background-color: #555;
+}
+h1{
+  font-size: 40px;
+}
+.anime--list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  list-style: none;
+  grid-gap: 1.5rem;
+  margin-left: 0;
+  padding: 0;
+}
+.anime--list ul{
+  padding: 0;
+  margin-right: 0;
+}
+.anime--list img{
+  max-width: 90%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pagination{
+  margin-top: 70px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  list-style: none;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination li + li {
+  margin-left: 1rem;
+}
+.cleanBtn{
+  margin-left: 15px;
+}
+.beforeAfter, .cleanBtn{
+  background-color: #aaa;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#btnList{
+  font-size: 18px;
+  background-color: #aaa;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pagination--item--active{
+  font-weight: bold;
+  border: none;
+}
+.pagination--item--active:focus{
+  outline: none;
+  
+}
+footer{
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #aaa;
+}
+footer a{
+  text-decoration: none;
+  color: #888;
 }
