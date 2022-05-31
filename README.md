@@ -4,7 +4,7 @@ this project was made entirely with React JS framework, with the objective to ma
 
 [Click Here](https://react-anime-list.netlify.app)
 
-![App Images](/src/assets/1.png)
+![App Images](/src/assets/1.png) to go
 
 
 
