@@ -1,4 +1,4 @@
-# Pokedex
+# Anime-List
 
 this project was made entirely with React JS framework, with the objective to made a Anime List, i used the [KitsuApi](https://kitsu.docs.apiary.io/#) to return the data and images.
 
